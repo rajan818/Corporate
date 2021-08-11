@@ -1,0 +1,120 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+.card-title 
+{
+	border:2px solid red;
+	background: red;
+	color: #fff;
+
+}
+
+.icon-bar 
+{
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	z-index: 10;
+}
+.icon-bar a
+{
+   text-decoration: none;
+   width: 120px;
+   
+   color: #fff;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   padding: 5px;
+   transform: translateX(-85px);
+   transition: all 0.5s linear;
+}
+
+.icon-bar a:hover
+{
+	 transform: translateX(0);
+  
+}
+
+.icon-bar a i
+{
+	padding-left: 20px;
+    font-size: 20px ! important;
+    animation: letszoom 3s linear alternate-reverse infinite;
+}
+
+
+
+@keyframes letszoom
+{
+	from
+	{
+       transform: scale(0.8);     
+	}
+	to
+	{
+        transform: scale(1);
+	}
+}
+.facebook
+{
+	background-color: #1877F2;
+}
+.twitter
+{
+	background-color: #1DA1F2;
+}
+.instagram
+{
+	background-color: #E4405F;
+}
+.linked-in
+{
+	background-color: #0A66C2;
+}
+.youtube
+{
+	background-color: #CD201F;
+}
+.banner 
+{
+	background-color: #1135ea;
+
+}
+.parallax
+{
+	background-image: url(https://i1.wp.com/wallpaperup.com/uploads/wallpapers/2014/10/13/479591/9685230f10ccaaa2dc0836300fa1df2a.jpg);
+	height: 300px;
+	width: 100%;
+}
+.col-sm
+{
+	padding-top: 20px;
+	
+}
+.btn
+{
+   box-shadow: 0 5px 15px;
+   color: #fff;
+   font-weight: bold;
+   font-size: 20px;	
+}
+.row h3
+{
+	color: red;
+	margin-top: 20px;
+}
+.row ul li
+{
+	list-style: none;
+}
+.footer
+{
+	background-color: #eaeaea;
+}
